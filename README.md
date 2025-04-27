@@ -15,10 +15,9 @@ This is a mini version of the `grep` command, implemented in a shell script (`my
 ./mygrep.sh [options] search_string filename
 
 ## Options:
-Options:
-	•	-n Show line numbers
-	•	-v Invert match (print lines that do not match)
-	•	--help Show this help message
+1) -n Show line numbers
+2) -v Invert match (print lines that do not match)
+3) --help Show this help message
 
 ## Reflective Section
 
