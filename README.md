@@ -12,8 +12,6 @@ This is a mini version of the `grep` command, implemented in a shell script (`my
 - Handles missing arguments and errors gracefully
 
 ## Usage
-
-```bash
 ./mygrep.sh [options] search_string filename
 
 ## Options:
