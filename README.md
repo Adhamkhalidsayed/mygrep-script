@@ -15,27 +15,27 @@ This is a mini version of the `grep` command, implemented in a shell script (`my
 ./mygrep.sh [options] search_string filename
 
 ## Options:
-1) -n Show line numbers
-2) -v Invert match (print lines that do not match)
-3) --help Show this help message
+1) `-n` Show line numbers
+2) `-v` Invert match (print lines that do not match)
+3) `--help` Show this help message
 
 ## Screenshots:
-1) ./mygrep.sh hello testfile.txt (search for a specific word)
+1) `./mygrep.sh hello testfile.txt` (search for a specific word)
 <div align="center">
   <img src="screenshots/basic_search.png" alt="Basic Search Screenshot" width="600"/>
 </div>
 
-2) ./mygrep.sh -n hello testfile.txt (add line numbers to the searched lines)
+2) `./mygrep.sh -n hello testfile.txt` (add line numbers to the searched lines)
 <div align="center">
   <img src="screenshots/line_numbers.png" alt="Basic Search Screenshot" width="600"/>
 </div>
 
-4) ./mygrep.sh -vn hello testfile.txt (get the unsearched lines with lines numbers)
+4) `./mygrep.sh -vn hello testfile.txt` (get the unsearched lines with lines numbers)
 <div align="center">
   <img src="screenshots/inverted_search.png" alt="Basic Search Screenshot" width="600"/>
 </div>
 
-5) ./mygrep.sh -v testfile.txt (expect: script should warn about missing search string)
+5) `./mygrep.sh -v testfile.txt` (expect: script should warn about missing search string)
 <div align="center">
   <img src="screenshots/invalid_inverted_search.png" alt="Basic Search Screenshot" width="600"/>
 </div>
