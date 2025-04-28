@@ -20,10 +20,26 @@ This is a mini version of the `grep` command, implemented in a shell script (`my
 3) --help Show this help message
 
 ## Screenshots:
-1) ./mygrep.sh hello testfile.txt
+1) ./mygrep.sh hello testfile.txt (search for a specific word)
 <div align="center">
   <img src="screenshots/basic_search.png" alt="Basic Search Screenshot" width="600"/>
 </div>
+
+2) ./mygrep.sh -n hello testfile.txt (add line numbers to the searched lines)
+<div align="center">
+  <img src="screenshots/line_numbers.png" alt="Basic Search Screenshot" width="600"/>
+</div>
+
+4) ./mygrep.sh -vn hello testfile.txt (get the unsearched lines with lines numbers)
+<div align="center">
+  <img src="screenshots/inverted_search.png" alt="Basic Search Screenshot" width="600"/>
+</div>
+
+5) ./mygrep.sh -v testfile.txt (expect: script should warn about missing search string)
+<div align="center">
+  <img src="screenshots/invalid_inverted_search.png" alt="Basic Search Screenshot" width="600"/>
+</div>
+
 
 ## Reflective Section
 
