@@ -19,6 +19,12 @@ This is a mini version of the `grep` command, implemented in a shell script (`my
 2) -v Invert match (print lines that do not match)
 3) --help Show this help message
 
+## Screenshots:
+1) ./mygrep.sh hello testfile.txt
+<div align="center">
+  <img src="screenshots/basic_search.png" alt="Basic Search Screenshot" width="600"/>
+</div>
+
 ## Reflective Section
 
 ### Breakdown of How the Script Handles Arguments and Options
